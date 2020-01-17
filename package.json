@@ -1,0 +1,23 @@
+{
+    "name": "nodejsredis",
+    "version": "1.0.0",
+    "description": "NodeJS Redis",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon index.js"
+    },
+    "keywords": [
+        "NodeJS",
+        "Redis"
+    ],
+    "author": "PhongSn",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.17.1",
+        "node-fetch": "^2.6.0",
+        "redis": "^2.8.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.2"
+    }
+}
